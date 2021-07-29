@@ -6,14 +6,14 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: 123456
+    url: postgres://cxfwlzilkzqeyl:284857be0d0e163ef702e0f7d83ea8928e8cb97e4fcc62cdff6625a15c2996ad@ec2-3-233-100-43.compute-1.amazonaws.com:5432/d8vaj02drkr1ln
+    username: cxfwlzilkzqeyl
+    password: 284857be0d0e163ef702e0f7d83ea8928e8cb97e4fcc62cdff6625a15c2996ad
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: none
     show-sql: true
-    generate-ddl: false
+    generate-ddl: true
 application:
   description: Projeto Criado para DIO Wesley
