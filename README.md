@@ -8,4 +8,4 @@
 1. Criando a Camada Service e Exceptions Handlers
 1. Publicando nossa API na Nuvem
 
-URL da API no Heroku: https://bootcamp-dio.herokuapp.com/bootcamp/swagger-ui.html
+URL da API no Heroku: https://bootcamp-santandebackend.herokuapp.com/bootcamp/swagger-ui/index.html
