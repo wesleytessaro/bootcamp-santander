@@ -1,6 +1,7 @@
-package com.project.demo.exceptions;
+package com.project.bootcamp.exceptions;
 
 public class BusinessException extends RuntimeException{
+
     public BusinessException(String message){
         super(message);
     }
